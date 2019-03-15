@@ -2,7 +2,7 @@
   "name": "Espresso Light",
   "dark": false,
   "author": "Vitaliy Vostrikov",
-  "editorScheme": "themes/espresso_light.xml",
+  "editorScheme": "/themes/espresso_light.xml",
   "ui": {
     "*": {
       "background": "#F2F3F5",
