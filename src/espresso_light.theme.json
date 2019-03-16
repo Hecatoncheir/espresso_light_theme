@@ -9,16 +9,38 @@
       "foreground": "#325a7d",
       "selectionBackground": "#ffffff",
       "EditorPane.selectionForeground": "#325a7d",
-      "selectionBackgroundInactive": "#D5D5D5",
-      "selectionInactiveBackground": "#D5D5D5",
+      "selectionBackgroundInactive": "#ffffff",
+      "selectionInactiveBackground": "#ffffff",
       "disabledForeground": "#8C8C8C",
       "disabledText": "#8C8C8C",
-      "inactiveForeground": "#8C8C8C",
+      "inactiveForeground": "#9a9fb9",
       "infoForeground": "#808080",
       "modifiedItemForeground": "#006be6",
       "acceleratorSelectionForeground": "#2c4865",
       "separatorColor": "#dcdcea",
       "borderColor": "#E1E3E6"
+    },
+    "Menu": {
+      "background": "#fffbea",
+      "selectionForeground": "#f16e8f",
+      "acceleratorSelectionForeground": "#C77B98",
+      "acceleratorForeground": "#f16e8f",
+      "separatorColor": "#FFE1AF",
+      "borderColor": "#f16e8f"
+    },
+    "MenuBar": {
+      "selectionForeground": "#f16e8f",
+      "foreground": "#f16e8f",
+      "highlight": "#ff4b68",
+      "borderColor": "#C77B98"
+    },
+    "MenuItem": {
+      "foreground": "#325a7d",
+      "selectionForeground": "#ff4b68",
+      "selectionBackground": "#C77B98"
+    },
+    "FileColor": {
+      "Green": "#dde46c"
     },
     "EditorPane": {
       "foreground": "#325a7d",
@@ -31,7 +53,6 @@
       "selectionBackground": "#FFE1AF",
       "selectionForeground": "#f16e8f"
     },
-    "MenuBar": {},
     "ScrollBar": {
       "background": "#FFE1AF",
       "trackColor": "#FFE1AF",
