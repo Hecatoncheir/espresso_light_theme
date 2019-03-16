@@ -20,6 +20,28 @@
       "separatorColor": "#dcdcea",
       "borderColor": "#E1E3E6"
     },
+    "Label": {
+      "foreground": "#325a7d",
+      "background": "#fffbea",
+      "selectedForeground": "#f16e8f"
+    },
+    "Editor": {
+      "background": "#9a9fb9",
+      "foreground": "#808080",
+      "shortcutForeground": "#4274A6"
+    },
+    "Tree": {
+      "selectionForeground": "#f16e8f",
+      "modifiedItemForeground": "#dde46c"
+    },
+    "EditorPane": {
+      "foreground": "#325a7d",
+      "selectionForeground": "#325a7d"
+    },
+    "EditorTabs": {
+      "selectedBackground": "#FFFFFF",
+      "inactiveMaskColor": "#4d4d4d12"
+    },
     "Menu": {
       "background": "#fffbea",
       "selectionForeground": "#f16e8f",
@@ -41,10 +63,6 @@
     },
     "FileColor": {
       "Green": "#dde46c"
-    },
-    "EditorPane": {
-      "foreground": "#325a7d",
-      "selectionForeground": "#325a7d"
     },
     "TextField": {
       "highlight": "#f16e8f",
@@ -125,16 +143,6 @@
     "Counter": {
       "background": "#9AA7B0",
       "foreground": "#FFFFFF"
-    },
-    "Editor": {
-      "background": "#FFFFFF",
-      "foreground": "#808080",
-      "shortcutForeground": "#4274A6"
-    },
-    "EditorPane.inactiveBackground": "#F2F3F5",
-    "EditorTabs": {
-      "selectedBackground": "#FFFFFF",
-      "inactiveMaskColor": "#4d4d4d12"
     },
     "DebuggerTabs.selectedBackground": "#F2F3F5",
     "FileColor.Yellow": "#e1f6a7",
