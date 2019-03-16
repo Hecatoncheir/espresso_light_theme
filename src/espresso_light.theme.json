@@ -20,6 +20,28 @@
       "separatorColor": "#dcdcea",
       "borderColor": "#E1E3E6"
     },
+    "Notification": {
+      "borderColor": "#f16e8f",
+      "background": "#fffae9",
+      "MoreButton": {
+        "background": "#E8E9EB",
+        "foreground": "#8C8C8C",
+        "innerBorderColor": "#E8E9EB"
+      },
+      "ToolWindow": {
+        "informativeBackground": "#e1ebd8",
+        "informativeBorderColor": "#b5c7a5",
+        "warningBackground": "#f5ebd7",
+        "warningBorderColor": "#E0CEA8",
+        "errorForeground": "#933b6a",
+        "errorBackground": "#ffe1af",
+        "errorBorderColor": "#ed3b6e"
+      }
+    },
+    "Panel": {
+      "background": "#edeef4",
+      "foreground": "#325a7d"
+    },
     "Label": {
       "foreground": "#325a7d",
       "background": "#fffbea",
@@ -40,7 +62,8 @@
     },
     "EditorTabs": {
       "selectedBackground": "#FFFFFF",
-      "inactiveMaskColor": "#4d4d4d12"
+      "selectedForeground": "#C77B98",
+      "inactiveMaskColor": "#d7d9e8"
     },
     "Menu": {
       "background": "#fffbea",
@@ -154,24 +177,6 @@
       "pressedForeground": "#2163A6",
       "visitedForeground": "#2163A6",
       "secondaryForeground": "#77a8d9"
-    },
-    "Notification": {
-      "background": "#f7f8fa",
-      "borderColor": "#D4D6D9",
-      "MoreButton": {
-        "background": "#E8E9EB",
-        "foreground": "#8C8C8C",
-        "innerBorderColor": "#E8E9EB"
-      },
-      "ToolWindow": {
-        "informativeBackground": "#e1ebd8",
-        "informativeBorderColor": "#b5c7a5",
-        "warningBackground": "#f5ebd7",
-        "warningBorderColor": "#E0CEA8",
-        "errorForeground": "#933b6a",
-        "errorBackground": "#ffe1af",
-        "errorBorderColor": "#ed3b6e"
-      }
     },
     "PasswordField.background": "#FFFFFF",
     "Plugins": {
