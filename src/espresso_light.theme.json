@@ -20,6 +20,19 @@
       "separatorColor": "#dcdcea",
       "borderColor": "#E1E3E6"
     },
+    "ScrollBar": {
+      "background": "#dde46c",
+      "trackColor": "#dde46c",
+      "trackHighlight": "#B7D06f",
+      "hoverTrackColor": "#B7D06f",
+      "thumbColor": "#B7D06f",
+      "hoverThumbColor": "#dde46c",
+      "thumbHighlight": "#dde46c",
+      "Transparent": {
+        "trackColor": "#B7D06f",
+        "thumbColor": "#dde46c"
+      }
+    },
     "List": {
       "background": "#FFFAE3",
       "foreground": "#325a7d",
