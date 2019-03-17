@@ -20,6 +20,34 @@
       "separatorColor": "#dcdcea",
       "borderColor": "#E1E3E6"
     },
+    "Popup.Advertiser.borderColor": "#C77B98",
+    "Popup.borderColor": "#C77B98",
+    "Popup.paintBorder": "",
+    "Popup": {
+      "Advertiser": {
+        "borderColor": "#ed3b6e",
+        "background": "#ffe1af"
+      }
+    },
+    "SearchEverywhere": {
+      "Header": {
+        "background": "#FFE1AF"
+      },
+      "Tab": {
+        "selectedBackground": "#fffae9",
+        "selectedForeground": "#ed3b6e"
+      },
+      "SearchField": {
+        "background": "#fffae9",
+        "borderColor": "#fffae9",
+        "infoForeground": "#C77B98"
+      },
+      "Advertiser.foreground": "#8C8C8C"
+    },
+    "CheckBoxMenuItem": {
+      "background": "#C77B98",
+      "foreground": "#ed3b6e"
+    },
     "Notification": {
       "borderColor": "#f16e8f",
       "background": "#fffae9",
@@ -147,8 +175,6 @@
       "color": "#ffffff",
       "ContrastBorderColor": "#E1E3E6"
     },
-    "Popup.Advertiser.borderColor": "#C77B98",
-    "Popup.borderColor": "#C77B98",
     "Component.focusedBorderColor": "#C77B98",
     "Button": {
       "shadowColor": "#A6A6A620",
@@ -213,11 +239,6 @@
       "progressColor": "#1E82E6",
       "indeterminateStartColor": "#91C5F2",
       "indeterminateEndColor": "#1E82E6"
-    },
-    "SearchEverywhere": {
-      "SearchField.background": "#FFFFFF",
-      "Tab.selectedBackground": "#D5D6D7",
-      "Advertiser.foreground": "#8C8C8C"
     },
     "SearchMatch": {
       "startBackground": "#FFD080",
