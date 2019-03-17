@@ -54,7 +54,7 @@
     },
     "Tree": {
       "selectionForeground": "#f16e8f",
-      "modifiedItemForeground": "#dde46c"
+      "modifiedItemForeground": "#f16e8f"
     },
     "EditorPane": {
       "foreground": "#325a7d",
@@ -110,6 +110,15 @@
         "thumbColor": "#FFE1AF",
         "hoverThumbColor": "#B7D06f",
         "thumbBorderColor": "#C77B98"
+      },
+      "Mac": {
+        "Transparent": {
+          "trackColor": "#FFFAE3",
+          "hoverTrackColor": "#dde46c",
+          "thumbColor": "#FFE1AF",
+          "hoverThumbColor": "#B7D06f",
+          "thumbBorderColor": "#C77B98"
+        }
       }
     },
     "List": {
