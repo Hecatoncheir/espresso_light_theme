@@ -97,10 +97,12 @@
     },
     "Tree": {
       "background": "#edeef4",
+      "foreground": "#325a7d",
       "selectionBackground": "#ffffff",
       "selectionForeground": "#f16e8f",
       "selectionInactiveBackground": "#ffffff",
-      "modifiedItemForeground": "#f16e8f"
+      "errorForeground": "#f16e8f",
+      "modifiedItemForeground": "#dde46c"
     },
     "EditorPane": {
       "foreground": "#325a7d",
@@ -132,7 +134,8 @@
       "selectionBackground": "#C77B98"
     },
     "FileColor": {
-      "Green": "#dde46c"
+      "Green": "#dde46c",
+      "Yellow": "#FFE1AF"
     },
     "TextField": {
       "highlight": "#f16e8f",
