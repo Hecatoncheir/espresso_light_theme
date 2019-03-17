@@ -17,8 +17,12 @@
         "iconColor": "#ed3b6e"
       }
     },
+    "CheckBox": {
+      "background": "#fbfbfb"
+    },
     "Button": {
-      "shadowColor": "",
+      "background": "#fbfbfb",
+      "shadowColor": "#fbfbfb",
       "startBorderColor": "#c06a8e",
       "endBorderColor": "#c06a8e",
       "foreground": "#c06a8e",
@@ -28,7 +32,7 @@
         "endBackground": "#ffe1af",
         "startBorderColor": "#c06a8e",
         "endBorderColor": "#c06a8e",
-        "shadowColor": "#A6A6A650",
+        "shadowColor": "#fbfbfb",
         "focusedBorderColor": "#ed3b6e"
       }
     },
