@@ -4,22 +4,6 @@
   "author": "Vitaliy Vostrikov",
   "editorScheme": "/themes/espresso_light.xml",
   "ui": {
-    "*": {
-      "background": "#edeef4",
-      "foreground": "#325a7d",
-      "selectionBackground": "#ffffff",
-      "EditorPane.selectionForeground": "#325a7d",
-      "selectionBackgroundInactive": "#ffffff",
-      "selectionInactiveBackground": "#ffffff",
-      "disabledForeground": "#8C8C8C",
-      "disabledText": "#8C8C8C",
-      "inactiveForeground": "#9a9fb9",
-      "infoForeground": "#808080",
-      "modifiedItemForeground": "#006be6",
-      "acceleratorSelectionForeground": "#2c4865",
-      "separatorColor": "#dcdcea",
-      "borderColor": "#E1E3E6"
-    },
     "Button": {
       "shadowColor": "",
       "startBorderColor": "#c06a8e",
@@ -112,7 +96,10 @@
       "shortcutForeground": "#4274A6"
     },
     "Tree": {
+      "background": "#edeef4",
+      "selectionBackground": "#ffffff",
       "selectionForeground": "#f16e8f",
+      "selectionInactiveBackground": "#ffffff",
       "modifiedItemForeground": "#f16e8f"
     },
     "EditorPane": {
@@ -126,6 +113,7 @@
     },
     "Menu": {
       "background": "#fffbea",
+      "foreground": "#325a7d",
       "selectionForeground": "#f16e8f",
       "acceleratorSelectionForeground": "#C77B98",
       "acceleratorForeground": "#f16e8f",
