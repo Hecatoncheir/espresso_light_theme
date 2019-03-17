@@ -56,9 +56,15 @@
     "Notification": {
       "borderColor": "#C77B98",
       "background": "#fffae9",
+      "foreground": "#C77B98",
       "errorBackground": "#fffae9",
       "errorForeground": "#ed3b6e",
       "errorBorderColor": "#f16e8f"
+    },
+    "ProgressBar": {
+      "background": "#B7D06f",
+      "foreground": "#dde46c",
+      "trackColor": "#dde46c"
     },
     "Link": {
       "activeForeground": "#2163A6",
