@@ -7,6 +7,7 @@
     "*": {
       "foreground": "#325a7d"
     },
+    "SplitPaneDivider.draggingColor": "#c6d5f6",
     "Borders": {
       "color": "#ffffff",
       "ContrastBorderColor": "#fbfbfb"
