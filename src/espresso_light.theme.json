@@ -168,9 +168,9 @@
     },
     "CompletionPopup": {
       "nonFocusedState": false,
-      "background": "#FFFAE3",
+      "background": "#fffdfb",
       "foreground": "#76809A",
-      "selectionBackground": "#FFE1AF",
+      "selectionBackground": "#FFFAE3",
       "selectionForeground": "#76809A",
       "matchForeground": "#f16e8f",
       "matchSelectionForeground": "#f14667",
