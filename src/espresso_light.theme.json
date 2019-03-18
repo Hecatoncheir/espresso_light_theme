@@ -151,7 +151,7 @@
       }
     },
     "Table": {
-      "selectionBackground": "#FFE1AF",
+      "selectionBackground": "#FFFAE3",
       "selectionForeground": "#f16e8f"
     },
     "List": {
