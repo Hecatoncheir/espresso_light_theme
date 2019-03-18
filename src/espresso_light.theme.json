@@ -262,6 +262,7 @@
       "Log.Commit.currentBranchBackground": "#FFFAE3",
       "FileHistory.Commit.selectedBranchBackground": "#e6f0f2"
     },
+    "StatusBar.borderColor": "#ffffff",
     "DebuggerTabs": {
       "selectedBackground": "#eae8f6"
     },
