@@ -59,7 +59,16 @@
       "foreground": "#325a7d",
       "errorBackground": "#fffae9",
       "errorForeground": "#ed3b6e",
-      "errorBorderColor": "#f16e8f"
+      "errorBorderColor": "#f16e8f",
+      "ToolWindow": {
+        "informativeBackground": "#e1ebd8",
+        "informativeBorderColor": "#b5c7a5",
+        "warningBackground": "#f5ebd7",
+        "warningBorderColor": "#E0CEA8",
+        "errorForeground": "#1F1F1F",
+        "errorBackground": "#F5E6E7",
+        "errorBorderColor": "#E0A8A9"
+      }
     },
     "ProgressBar": {
       "background": "#B7D06f",
@@ -121,6 +130,9 @@
         }
       }
     },
+    "Table": {
+      "selectionForeground": "#a8667e"
+    },
     "List": {
       "background": "#FFFAE3",
       "foreground": "#325a7d",
@@ -158,6 +170,10 @@
       },
       "Advertiser.foreground": "#8C8C8C"
     },
+    "SearchMatch": {
+      "startBackground": "#ffffff",
+      "endBackground": "#ffffff"
+    },
     "TextField": {
       "highlight": "#f16e8f",
       "background": "#FFFAE3",
@@ -166,6 +182,7 @@
       "selectionForeground": "#f16e8f"
     },
     "Tree": {
+      "rowHeight": 22,
       "background": "#fbfbfb",
       "foreground": "#325a7d",
       "selectionBackground": "#FFFFFF",
@@ -179,6 +196,47 @@
     "Label": {
       "background": "#ffffff",
       "foreground": "#325a7d"
+    },
+    "FileColor.Yellow": "#F5F0DF",
+    "FileColor.Green": "#E8F2DF",
+    "Popup": {
+      "Header": {
+        "activeBackground": "#E1E2E3",
+        "inactiveBackground": "#E1E2E3"
+      },
+      "separatorForeground": "#999999",
+      "Advertiser": {
+        "foreground": "#8C8C8C",
+        "borderInsets": "3,6,3,0"
+      }
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "#E8E9EB",
+        "inactiveBackground": "#F2F3F5"
+      },
+      "HeaderTab": {
+        "selectedBackground": "#D5D6D7",
+        "hoverBackground": "#D5D6D7",
+        "selectedInactiveBackground": "#e1e2e3",
+        "hoverInactiveBackground": "#e1e2e3"
+      },
+      "Button": {
+        "selectedBackground": "#D5D6D7",
+        "hoverBackground": "#D5D6D7"
+      }
+    },
+    "ToolTip": {
+      "background": "#FFFAE3"
+    },
+    "VersionControl": {
+      "Log.Commit.currentBranchBackground": "#FFFAE3",
+      "FileHistory.Commit.selectedBranchBackground": "#e6f0f2"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Border.Default": "#adadad"
     }
   }
 }
