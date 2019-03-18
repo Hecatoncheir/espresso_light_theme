@@ -26,8 +26,8 @@
     "Button": {
       "background": "#fbfbfb",
       "shadowColor": "#fbfbfb",
-      "startBorderColor": "#c06a8e",
-      "endBorderColor": "#c06a8e",
+      "startBorderColor": "#f2f4f9",
+      "endBorderColor": "#f2f4f9",
       "foreground": "#c06a8e",
       "default": {
         "foreground": "#c06a8e",
