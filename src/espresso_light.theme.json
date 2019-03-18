@@ -44,6 +44,9 @@
       "buttonColor": "#fffae9",
       "borderColor": "#ffb388"
     },
+    "RadioButton": {
+      "background": "#fbfbfb"
+    },
     "EditorTabs": {
       "selectedBackground": "#FFFFFF",
       "selectedForeground": "#C77B98",
@@ -72,8 +75,22 @@
     },
     "ProgressBar": {
       "background": "#B7D06f",
-      "foreground": "#dde46c",
-      "trackColor": "#dde46c"
+      "foreground": "#fffae9",
+      "trackColor": "#dde46c",
+      "progressColor": "#dde46c",
+      "indeterminateStartColor": "#B7D06f",
+      "indeterminateEndColor": "#dde46c",
+      "selectionBackground": "#B7D06f",
+      "selectionForeground": "#dde46c",
+      "passedColor": "#B7D06f",
+      "passedEndColor": "#dde46c"
+    },
+    "HelpTooltip": {
+      "background": "#fffbea",
+      "foreground": "#325a7d"
+    },
+    "GutterTooltip": {
+      "infoForeground": "#B7D06f"
     },
     "Link": {
       "activeForeground": "#2163A6",
@@ -206,6 +223,7 @@
       },
       "separatorForeground": "#999999",
       "Advertiser": {
+        "background": "#E1E2E3",
         "foreground": "#8C8C8C",
         "borderInsets": "3,6,3,0"
       }
