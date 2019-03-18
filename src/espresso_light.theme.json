@@ -4,7 +4,7 @@
   "author": "Vitaliy Vostrikov",
   "editorScheme": "/themes/espresso_light.xml",
   "ui": {
-    "*":{
+    "*": {
       "foreground": "#325a7d"
     },
     "Borders": {
@@ -183,12 +183,12 @@
         "background": "#FFE1AF"
       },
       "Tab": {
-        "selectedBackground": "#fffae9",
+        "selectedBackground": "#fffdfb",
         "selectedForeground": "#ed3b6e"
       },
       "SearchField": {
         "background": "#fffdfb",
-        "borderColor": "#fffae9",
+        "borderColor": "#fffdfb",
         "infoForeground": "#C77B98"
       },
       "Advertiser.foreground": "#C77B98"
