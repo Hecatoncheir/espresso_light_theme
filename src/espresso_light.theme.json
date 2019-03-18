@@ -86,7 +86,7 @@
       "indeterminateEndColor": "#dde46c",
       "selectionBackground": "#B7D06f",
       "selectionForeground": "#dde46c",
-      "passedColor": "#FFE1AF",
+      "passedColor": "#B7D06f",
       "passedEndColor": "#dde46c"
     },
     "HelpTooltip": {
