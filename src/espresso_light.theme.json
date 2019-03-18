@@ -263,6 +263,12 @@
     },
     "DebuggerTabs": {
       "selectedBackground": "#eae8f6"
+    },
+    "ValidationTooltip": {
+      "warningBackground": "#f5ebd7",
+      "warningBorderColor": "#E0CEA8",
+      "errorBackground": "#F5E6E7",
+      "errorBorderColor": "#E0A8A9"
     }
   },
   "icons": {
