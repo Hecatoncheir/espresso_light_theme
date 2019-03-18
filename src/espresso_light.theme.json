@@ -76,6 +76,11 @@
         "errorForeground": "#1F1F1F",
         "errorBackground": "#F5E6E7",
         "errorBorderColor": "#E0A8A9"
+      },
+      "MoreButton": {
+        "background": "#ffe1af",
+        "foreground": "#ed3b6e",
+        "innerBorderColor": "#ffb388"
       }
     },
     "ProgressBar": {
