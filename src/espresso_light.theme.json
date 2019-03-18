@@ -4,6 +4,9 @@
   "author": "Vitaliy Vostrikov",
   "editorScheme": "/themes/espresso_light.xml",
   "ui": {
+    "*":{
+      "foreground": "#325a7d"
+    },
     "Borders": {
       "color": "#ffffff",
       "ContrastBorderColor": "#fbfbfb"
@@ -148,7 +151,8 @@
       }
     },
     "Table": {
-      "selectionForeground": "#a8667e"
+      "selectionBackground": "#FFE1AF",
+      "selectionForeground": "#f16e8f"
     },
     "List": {
       "background": "#FFFAE3",
