@@ -78,16 +78,16 @@
       }
     },
     "ProgressBar": {
-      "background": "#B7D06f",
+      "background": "#325a7d",
       "foreground": "#fffae9",
       "trackColor": "#dde46c",
-      "progressColor": "#dde46c",
+      "progressColor": "#B7D06f",
       "indeterminateStartColor": "#B7D06f",
       "indeterminateEndColor": "#dde46c",
       "selectionBackground": "#B7D06f",
       "selectionForeground": "#dde46c",
-      "passedColor": "#B7D06f",
-      "passedEndColor": "#c9ee55"
+      "passedColor": "#FFE1AF",
+      "passedEndColor": "#dde46c"
     },
     "HelpTooltip": {
       "background": "#fffbea",
@@ -221,8 +221,6 @@
       "background": "#ffffff",
       "foreground": "#325a7d"
     },
-    "FileColor.Yellow": "#F5F0DF",
-    "FileColor.Green": "#E8F2DF",
     "Popup": {
       "Header": {
         "activeBackground": "#E1E2E3",
@@ -237,18 +235,20 @@
     },
     "ToolWindow": {
       "Header": {
-        "background": "#E8E9EB",
-        "inactiveBackground": "#F2F3F5"
+        "background": "#fbfbfb",
+        "inactiveBackground": "#fbfbfb",
+        "borderColor": "#ebeef2"
       },
       "HeaderTab": {
-        "selectedBackground": "#D5D6D7",
-        "hoverBackground": "#D5D6D7",
-        "selectedInactiveBackground": "#e1e2e3",
-        "hoverInactiveBackground": "#e1e2e3"
+        "selectedBackground": "#ffffff",
+        "hoverBackground": "#fbfbfb",
+        "selectedInactiveBackground": "#ffffff",
+        "hoverInactiveBackground": "#fbfbfb"
       },
       "Button": {
-        "selectedBackground": "#D5D6D7",
-        "hoverBackground": "#D5D6D7"
+        "selectedBackground": "#ffffff",
+        "selectedForeground": "#325a7d",
+        "hoverBackground": "#ffffff"
       }
     },
     "ToolTip": {
