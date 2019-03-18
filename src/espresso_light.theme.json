@@ -68,7 +68,7 @@
       "errorBorderColor": "#f16e8f",
       "ToolWindow": {
         "informativeBackground": "#e1ebd8",
-        "informativeBorderColor": "#b5c7a5",
+        "informativeBorderColor": "#B7D06f",
         "warningBackground": "#f5ebd7",
         "warningBorderColor": "#E0CEA8",
         "errorForeground": "#1F1F1F",
@@ -155,10 +155,10 @@
       "selectionForeground": "#f16e8f"
     },
     "List": {
-      "background": "#FFFAE3",
+      "background": "#fffdfb",
       "foreground": "#325a7d",
-      "selectionBackground": "#FFE1AF",
-      "selectionForeground": "#f16e8f",
+      "selectionBackground": "#fff0cb",
+      "selectionForeground": "#f14568",
       "selectionInactiveBackground": "#FFE1AF",
       "selectionInactiveForeground": "#f16e8f",
       "dropLineColor": "#f16e8f"
@@ -185,11 +185,11 @@
         "selectedForeground": "#ed3b6e"
       },
       "SearchField": {
-        "background": "#fffae9",
+        "background": "#fffdfb",
         "borderColor": "#fffae9",
         "infoForeground": "#C77B98"
       },
-      "Advertiser.foreground": "#8C8C8C"
+      "Advertiser.foreground": "#C77B98"
     },
     "SearchMatch": {
       "startBackground": "#ffffff",
@@ -249,7 +249,10 @@
       }
     },
     "ToolTip": {
-      "background": "#FFFAE3"
+      "background": "#FFFAE3",
+      "Actions": {
+        "background": "#FFFAE3"
+      }
     },
     "VersionControl": {
       "Log.Commit.currentBranchBackground": "#FFFAE3",
