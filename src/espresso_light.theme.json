@@ -26,8 +26,8 @@
     "Button": {
       "background": "#fbfbfb",
       "shadowColor": "#fbfbfb",
-      "startBorderColor": "#f2f4f9",
-      "endBorderColor": "#f2f4f9",
+      "startBorderColor": "#c6d5f6",
+      "endBorderColor": "#c6d5f6",
       "foreground": "#c06a8e",
       "default": {
         "foreground": "#c06a8e",
@@ -86,7 +86,7 @@
       "selectionBackground": "#B7D06f",
       "selectionForeground": "#dde46c",
       "passedColor": "#B7D06f",
-      "passedEndColor": "#dde46c"
+      "passedEndColor": "#c9ee55"
     },
     "HelpTooltip": {
       "background": "#fffbea",
@@ -254,6 +254,9 @@
     "VersionControl": {
       "Log.Commit.currentBranchBackground": "#FFFAE3",
       "FileHistory.Commit.selectedBranchBackground": "#e6f0f2"
+    },
+    "DebuggerTabs": {
+      "selectedBackground": "#eae8f6"
     }
   },
   "icons": {
