@@ -71,11 +71,12 @@
       "ToolWindow": {
         "informativeBackground": "#dde46c",
         "informativeBorderColor": "#B7D06f",
-        "warningBackground": "#f5ebd7",
-        "warningBorderColor": "#E0CEA8",
-        "errorForeground": "#1F1F1F",
-        "errorBackground": "#F5E6E7",
-        "errorBorderColor": "#E0A8A9"
+        "warningBackground": "#ffeec9",
+        "warningForeground": "#ed3b6e",
+        "warningBorderColor": "#ed879d",
+        "errorBackground": "#ffe1af",
+        "errorForeground": "#ed3b6e",
+        "errorBorderColor": "#ed3b6e"
       },
       "MoreButton": {
         "background": "#ffe1af",
