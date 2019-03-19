@@ -277,7 +277,7 @@
       "errorBackground": "#F5E6E7",
       "errorBorderColor": "#E0A8A9"
     },
-    "WelcomeScreen":{
+    "WelcomeScreen": {
       "background": "#FFFAE3",
       "headerBackground": "#FFE1AF",
       "headerForeground": "#ed3b6e",
@@ -290,11 +290,20 @@
         "selectionBackground": "#FFE1AF",
         "selectionInactiveBackground": "#FFE1AF"
       }
+    },
+    "DebuggerPopup": {
+      "borderColor": "#B7D06f"
     }
   },
   "icons": {
     "ColorPalette": {
-      "Checkbox.Border.Default": "#adadad"
+      "Checkbox.Border.Default": "#adadad",
+      "Objects.GreenAndroid": "#B7D06f",
+      "Objects.RedStatus": "#ed3b6e",
+      "Objects.Grey": "#b8bed6",
+      "Objects.Green": "#B7D06f",
+      "Objects.Blue": "#9eb1d6",
+      "Actions.Blue": "#9eb1d6"
     }
   }
 }
