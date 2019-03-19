@@ -241,20 +241,20 @@
     },
     "ToolWindow": {
       "Header": {
-        "background": "#fbfbfb",
+        "background": "#dfe7f7",
         "inactiveBackground": "#fbfbfb",
         "borderColor": "#ebeef2"
       },
       "HeaderTab": {
         "selectedBackground": "#ffffff",
-        "hoverBackground": "#fbfbfb",
+        "hoverBackground": "#dde46c",
         "selectedInactiveBackground": "#ffffff",
         "hoverInactiveBackground": "#fbfbfb"
       },
       "Button": {
-        "selectedBackground": "#ffffff",
+        "selectedBackground": "#dfe7f7",
         "selectedForeground": "#325a7d",
-        "hoverBackground": "#ffffff"
+        "hoverBackground": "#dde46c"
       }
     },
     "ToolTip": {
