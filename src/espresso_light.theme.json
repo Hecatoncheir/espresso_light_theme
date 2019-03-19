@@ -69,7 +69,7 @@
       "errorForeground": "#ed3b6e",
       "errorBorderColor": "#f16e8f",
       "ToolWindow": {
-        "informativeBackground": "#e1ebd8",
+        "informativeBackground": "#dde46c",
         "informativeBorderColor": "#B7D06f",
         "warningBackground": "#f5ebd7",
         "warningBorderColor": "#E0CEA8",
