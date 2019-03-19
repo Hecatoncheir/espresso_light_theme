@@ -29,15 +29,15 @@
       "shadowColor": "#fbfbfb",
       "startBorderColor": "#c6d5f6",
       "endBorderColor": "#c6d5f6",
-      "foreground": "#c06a8e",
+      "foreground": "#325a7d",
       "default": {
-        "foreground": "#c06a8e",
-        "startBackground": "#ffe1af",
-        "endBackground": "#ffe1af",
-        "startBorderColor": "#c06a8e",
-        "endBorderColor": "#c06a8e",
+        "foreground": "#325a7d",
+        "startBackground": "#f3f3f3",
+        "endBackground": "#f3f3f3",
+        "startBorderColor": "#325a7d",
+        "endBorderColor": "#325a7d",
         "shadowColor": "#fbfbfb",
-        "focusedBorderColor": "#ed3b6e"
+        "focusedBorderColor": "#325a7d"
       }
     },
     "ToggleButton": {
@@ -53,7 +53,7 @@
     },
     "EditorTabs": {
       "selectedBackground": "#FFFFFF",
-      "selectedForeground": "#C77B98",
+      "selectedForeground": "#325a7d",
       "inactiveMaskColor": "#f3f3f3",
       "borderColor": "#d1dbee"
     },
