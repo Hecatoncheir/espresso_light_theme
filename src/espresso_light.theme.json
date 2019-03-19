@@ -276,6 +276,20 @@
       "warningBorderColor": "#E0CEA8",
       "errorBackground": "#F5E6E7",
       "errorBorderColor": "#E0A8A9"
+    },
+    "WelcomeScreen":{
+      "background": "#FFFAE3",
+      "headerBackground": "#FFE1AF",
+      "headerForeground": "#ed3b6e",
+      "footerBackground": "#FFE1AF",
+      "footerForeground": "#ed3b6e",
+      "separatorColor": "#FFFAE3",
+      "borderColor": "#ed3b6e",
+      "Projects": {
+        "background": "#FFFAE3",
+        "selectionBackground": "#FFE1AF",
+        "selectionInactiveBackground": "#FFE1AF"
+      }
     }
   },
   "icons": {
