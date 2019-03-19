@@ -54,7 +54,7 @@
     "EditorTabs": {
       "selectedBackground": "#FFFFFF",
       "selectedForeground": "#C77B98",
-      "inactiveMaskColor": "#dfe7f7",
+      "inactiveMaskColor": "#f3f3f3",
       "borderColor": "#d1dbee"
     },
     "EditorPane": {
@@ -242,7 +242,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "background": "#dfe7f7",
+        "background": "#f3f3f3",
         "inactiveBackground": "#fbfbfb",
         "borderColor": "#ebeef2"
       },
@@ -253,7 +253,7 @@
         "hoverInactiveBackground": "#fbfbfb"
       },
       "Button": {
-        "selectedBackground": "#dfe7f7",
+        "selectedBackground": "#f3f3f3",
         "selectedForeground": "#325a7d",
         "hoverBackground": "#dde46c"
       }
