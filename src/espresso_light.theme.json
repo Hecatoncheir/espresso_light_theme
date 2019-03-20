@@ -243,7 +243,7 @@
     "ToolWindow": {
       "Header": {
         "background": "#f3f3f3",
-        "inactiveBackground": "#fbfbfb",
+        "inactiveBackground": "#f1f1f1",
         "borderColor": "#ebeef2"
       },
       "HeaderTab": {
