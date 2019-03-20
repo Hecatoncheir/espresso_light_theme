@@ -5,6 +5,7 @@
   "editorScheme": "/themes/espresso_light.xml",
   "ui": {
     "*": {
+      "background": "#fbfbfb",
       "foreground": "#325a7d"
     },
     "SplitPaneDivider.draggingColor": "#c6d5f6",
