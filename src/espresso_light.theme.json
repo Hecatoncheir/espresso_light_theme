@@ -74,8 +74,8 @@
         "warningBackground": "#ffeec9",
         "warningForeground": "#ed3b6e",
         "warningBorderColor": "#ed879d",
-        "errorBackground": "#ffe1af",
-        "errorForeground": "#ed3b6e",
+        "errorBackground": "#ffcfbf",
+        "errorForeground": "#b7315c",
         "errorBorderColor": "#ed3b6e"
       },
       "MoreButton": {
