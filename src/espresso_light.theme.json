@@ -11,7 +11,7 @@
     "SplitPaneDivider.draggingColor": "#c6d5f6",
     "Borders": {
       "color": "#fbfbfb",
-      "ContrastBorderColor": "#fbfbfb"
+      "ContrastBorderColor": "#f5f5f5"
     },
     "ComboBox": {
       "background": "#fffae9",
@@ -268,7 +268,7 @@
       "Log.Commit.currentBranchBackground": "#FFFAE3",
       "FileHistory.Commit.selectedBranchBackground": "#e6f0f2"
     },
-    "StatusBar.borderColor": "#ffffff",
+    "StatusBar.borderColor": "#f5f5f5",
     "DebuggerTabs": {
       "selectedBackground": "#eae8f6"
     },
