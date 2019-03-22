@@ -9,3 +9,9 @@ IDEA Light theme
 
 ### PopUp
 ![Espresso light theme popup window](/resources/screenshots/popup.png)
+
+### Completion
+![Espresso light theme completion](/resources/screenshots/completion.png)
+
+### Colors
+![Espresso light theme colors](/resources/screenshots/colors.png)
