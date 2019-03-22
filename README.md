@@ -10,6 +10,9 @@ IDEA Light theme
 ### PopUp
 ![Espresso light theme popup window](/resources/screenshots/popup.png)
 
+### Error PopUp
+![Espresso light theme popup window](/resources/screenshots/error_popup.png)
+
 ### Completion
 ![Espresso light theme completion](/resources/screenshots/completion.png)
 
