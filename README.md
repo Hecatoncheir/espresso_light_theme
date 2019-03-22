@@ -1,4 +1,4 @@
-## Preview
+## espresso_light_theme
 IDEA Light theme
 
 [Screenshots](PREVIEW.md)
