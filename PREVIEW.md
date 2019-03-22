@@ -12,6 +12,9 @@ IDEA Light theme
 ### Menu
 ![Espresso light theme menu window](/resources/screenshots/menu.png)
 
+### Search
+![Espresso light theme search](/resources/screenshots/search.png)
+
 ### PopUp
 ![Espresso light theme popup window](/resources/screenshots/popup.png)
 
