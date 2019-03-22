@@ -7,6 +7,10 @@ IDEA Light theme
 ### Menu
 ![Espresso light theme menu window](/resources/screenshots/menu.png)
 
+
+### Debug
+![Espresso light theme debug window](/resources/screenshots/debug_window.png)
+
 ### PopUp
 ![Espresso light theme popup window](/resources/screenshots/popup.png)
 
