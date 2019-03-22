@@ -18,3 +18,6 @@ IDEA Light theme
 
 ### Colors
 ![Espresso light theme colors](/resources/screenshots/colors.png)
+
+### Debug 
+![Espresso light theme debug](/resources/screenshots/debug.png)
