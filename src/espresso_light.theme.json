@@ -55,7 +55,8 @@
     "EditorTabs": {
       "selectedBackground": "#FFFFFF",
       "selectedForeground": "#325a7d",
-      "inactiveMaskColor": "#f3f3f3"
+      "borderColor": "#cedee8",
+      "inactiveMaskColor": "#d8e8f2"
     },
     "EditorPane": {
       "foreground": "#325a7d",
