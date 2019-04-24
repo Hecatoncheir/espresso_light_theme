@@ -28,7 +28,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
-    <themeProvider id="espresso_light_theme"
+    <themeProvider id=""
                    path="/espresso_light.theme.json"/>
   </extensions>
 
