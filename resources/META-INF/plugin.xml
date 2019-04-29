@@ -1,21 +1,25 @@
 <idea-plugin>
   <id>rasarts.espresso.light.theme</id>
   <name>Espresso light theme</name>
-  <version>1.0</version>
+  <version>1.0.2</version>
   <vendor email="rasart.pro@gmail.com" url="http://rasarts.github.io/">Rasarts</vendor>
 
   <description><![CDATA[
       Espresso light theme for IntelliJ <br>
       <img src="https://github.com/Rasarts/espresso_light_theme/raw/master/resources/screenshots/editor.png" border="0" width="700"/>
+
+      <img src="https://github.com/Rasarts/espresso_light_theme/raw/master/resources/screenshots/debug_window.png" border="0" width="700"/>
     ]]></description>
 
   <change-notes><![CDATA[
-    <b>1.0.1</b>
+    <b>1.0.2</b>
     <ul>
         <li>Update minimum idea version to 191.0</li>
     </ul>
 
-    <b>1.0.0</b>
+    <br/>
+
+    <b>1.0</b>
     <ul>
         <li>First release</li>
     </ul>
