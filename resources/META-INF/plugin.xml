@@ -10,7 +10,12 @@
     ]]></description>
 
   <change-notes><![CDATA[
-    <b>1.0</b>
+    <b>1.0.1</b>
+    <ul>
+        <li>Update minimum idea version to 191.0</li>
+    </ul>
+
+    <b>1.0.0</b>
     <ul>
         <li>First release</li>
     </ul>
