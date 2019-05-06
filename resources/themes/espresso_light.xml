@@ -1,10 +1,10 @@
 <scheme name="light_theme" version="142" parent_scheme="Default">
     <option name="FONT_SCALE" value="1.0" />
     <metaInfo>
-        <property name="created">2019-03-20T06:16:50</property>
+        <property name="created">2019-05-06T10:15:47</property>
         <property name="ide">idea</property>
-        <property name="ideVersion">2019.1.0.0</property>
-        <property name="modified">2019-03-20T06:17:51</property>
+        <property name="ideVersion">2019.1.1.0.0</property>
+        <property name="modified">2019-05-06T10:15:51</property>
         <property name="originalScheme">light_theme</property>
     </metaInfo>
     <option name="LINE_SPACING" value="1.1" />
@@ -301,6 +301,12 @@
         <option name="DART_BUILTIN">
             <value>
                 <option name="FOREGROUND" value="db7570" />
+            </value>
+        </option>
+        <option name="DART_CONSTRUCTOR">
+            <value>
+                <option name="FOREGROUND" value="d34f84" />
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DART_CONSTRUCTOR_CALL">
