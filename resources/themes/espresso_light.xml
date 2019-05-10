@@ -1,15 +1,15 @@
 <scheme name="light_theme" version="142" parent_scheme="Default">
     <option name="FONT_SCALE" value="1.0" />
     <metaInfo>
-        <property name="created">2019-05-06T10:15:47</property>
+        <property name="created">2019-05-10T14:43:04</property>
         <property name="ide">idea</property>
-        <property name="ideVersion">2019.1.1.0.0</property>
-        <property name="modified">2019-05-06T10:15:51</property>
+        <property name="ideVersion">2019.1.2.0.0</property>
+        <property name="modified">2019-05-10T14:43:15</property>
         <property name="originalScheme">light_theme</property>
     </metaInfo>
     <option name="LINE_SPACING" value="1.1" />
     <option name="EDITOR_FONT_SIZE" value="15" />
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
+    <option name="EDITOR_FONT_NAME" value="IBM Plex Mono" />
     <option name="EDITOR_LIGATURES" value="true" />
     <colors>
         <option name="ADDED_LINES_COLOR" value="dbf0a0" />
@@ -93,10 +93,16 @@
         </option>
         <option name="BRACE_ATTR">
             <value>
-                <option name="FOREGROUND" value="7b8f24" />
-                <option name="BACKGROUND" value="d8e335" />
+                <option name="FOREGROUND" value="a0bc3d" />
+                <option name="BACKGROUND" value="d2da86" />
                 <option name="FONT_TYPE" value="1" />
-                <option name="ERROR_STRIPE_COLOR" value="d8e335" />
+                <option name="ERROR_STRIPE_COLOR" value="c9d23f" />
+            </value>
+        </option>
+        <option name="BRACE_LINE_ATTR">
+            <value>
+                <option name="BACKGROUND" value="eceeaf" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="BRACKET_ATTR">
@@ -105,6 +111,11 @@
                 <option name="BACKGROUND" value="ffcea6" />
                 <option name="FONT_TYPE" value="1" />
                 <option name="ERROR_STRIPE_COLOR" value="ffcea6" />
+            </value>
+        </option>
+        <option name="BRACKET_LINE_ATTR">
+            <value>
+                <option name="BACKGROUND" value="ebf7f9" />
             </value>
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
@@ -264,10 +275,10 @@
         </option>
         <option name="CUSP_BRACKETS_ATTR">
             <value>
-                <option name="FOREGROUND" value="fee9c2" />
-                <option name="BACKGROUND" value="a1bc30" />
+                <option name="FOREGROUND" value="7b8f24" />
+                <option name="BACKGROUND" value="d8e335" />
                 <option name="FONT_TYPE" value="1" />
-                <option name="ERROR_STRIPE_COLOR" value="a1bc30" />
+                <option name="ERROR_STRIPE_COLOR" value="d8e335" />
             </value>
         </option>
         <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -305,8 +316,7 @@
         </option>
         <option name="DART_CONSTRUCTOR">
             <value>
-                <option name="FOREGROUND" value="d34f84" />
-                <option name="FONT_TYPE" value="1" />
+                <option name="FOREGROUND" value="9635b5" />
             </value>
         </option>
         <option name="DART_CONSTRUCTOR_CALL">
@@ -887,10 +897,16 @@
         </option>
         <option name="PARENTHESIS_ATTR">
             <value>
-                <option name="FOREGROUND" value="7e7fb6" />
-                <option name="BACKGROUND" value="e0eb6c" />
+                <option name="FOREGROUND" value="3bb0c2" />
+                <option name="BACKGROUND" value="b7e1e9" />
                 <option name="FONT_TYPE" value="1" />
-                <option name="ERROR_STRIPE_COLOR" value="e0eb6c" />
+                <option name="ERROR_STRIPE_COLOR" value="b7e1e9" />
+            </value>
+        </option>
+        <option name="PARENTHESIS_LINE_ATTR">
+            <value>
+                <option name="BACKGROUND" value="ebf7f9" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="SASS_MIXIN">
