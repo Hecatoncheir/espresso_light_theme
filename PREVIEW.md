@@ -23,3 +23,7 @@ IDEA Light theme
 ### Golang syntax
 
 ![Golang](/docs/screenshots/golang.png)
+
+### Dart syntax
+
+![Golang](/docs/screenshots/dart.png)
