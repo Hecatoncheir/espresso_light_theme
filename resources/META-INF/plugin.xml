@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>rasarts.espresso.light.theme</id>
   <name>Espresso light theme</name>
-  <version>1.0.5</version>
+  <version>1.0.6</version>
   <vendor email="rasart.pro@gmail.com" url="http://rasarts.github.io/">Rasarts</vendor>
 
   <description><![CDATA[
@@ -12,6 +12,11 @@
     ]]></description>
 
   <change-notes><![CDATA[
+    <b>1.0.6</b>
+    <ul>
+        <li>Added colors for <a href="https://github.com/Rasarts/HighlightBracketPair/blob/HighlightLinesWithBraces/HighlightBracketPair-1.1.2.jar">HighlightBracketPair</a></li>
+    </ul>
+
     <b>1.0.5</b>
     <ul>
         <li>Cleanup</li>
