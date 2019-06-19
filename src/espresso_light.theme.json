@@ -133,15 +133,15 @@
       "selectionBackground": "#C77B98"
     },
     "ScrollBar": {
-      "background": "#FFE1AF",
-      "trackColor": "#FFE1AF",
-      "trackHighlight": "#FFFAE3",
-      "hoverTrackColor": "#FFFAE3",
-      "thumbColor": "#FFFAE3",
-      "hoverThumbColor": "#FFE1AF",
+      "background": "#f5f5f5",
+      "trackColor": "#325a7d",
+      "trackHighlight": "#d8e8f2",
+      "hoverTrackColor": "#d8e8f2",
+      "thumbColor": "#d8e8f2",
+      "hoverThumbColor": "#325a7d",
       "thumbBorderColor": "#f16e8f",
       "hoverThumbBorderColor": "#f16e8f",
-      "thumbHighlight": "#FFE1AF",
+      "thumbHighlight": "#325a7d",
       "Transparent": {
         "trackColor": "#FFFAE3",
         "hoverTrackColor": "#dde46c",
