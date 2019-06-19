@@ -1,3 +1,6 @@
+1.0.9
+Enable plugin in all products.
+
 1.0.8
 Change scrollbar color.
 
