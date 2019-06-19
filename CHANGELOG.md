@@ -1,3 +1,6 @@
+1.0.8
+Change scrollbar color.
+
 1.0.7
 Cleanup
 
