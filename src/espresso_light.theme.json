@@ -8,6 +8,11 @@
       "background": "#fbfbfb",
       "foreground": "#325a7d"
     },
+    "TitlePane": {
+      "background": "#fffae9",
+      "infoForeground": "#ed4b6e",
+      "inactiveInfoForeground": "#c06a8e"
+    },
     "SplitPaneDivider.draggingColor": "#e0e2fb",
     "Borders": {
       "color": "#fbfbfb",
