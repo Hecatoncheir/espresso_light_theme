@@ -312,8 +312,14 @@
       "Objects.BlackText": "#325a7d",
       "Objects.Grey": "#b8bed6",
       "Objects.Green": "#B7D06f",
+      "Objects.Red": "#ed3b6e",
       "Objects.Blue": "#9eb1d6",
-      "Actions.Blue": "#9eb1d6"
+      "Actions.Blue": "#9eb1d6",
+      "Actions.Grey": "#868a9d",
+      "Actions.GreyInline": "#676a7b",
+      "Actions.GreyInline.Dark": "#325a7d",
+      "Actions.Green": "#B7D06f",
+      "Actions.Red": "#ed3b6e"
     }
   }
 }
