@@ -53,10 +53,12 @@
       "background": "#f3f3f3"
     },
     "EditorTabs": {
-      "selectedBackground": "#FFFFFF",
-      "selectedForeground": "#325a7d",
+      "background": "#FFFFFF",
+      "underlineColor": "#325a7d",
+      "underlinedTabBackground": "#f3f3f3",
+      "underlinedTabForeground": "#325a7d",
       "borderColor": "#cedee8",
-      "inactiveMaskColor": "#d8e8f2"
+      "hoverMaskColor": "#f3f3f3"
     },
     "EditorPane": {
       "foreground": "#325a7d",
