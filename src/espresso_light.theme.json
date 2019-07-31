@@ -182,17 +182,11 @@
       "dropLineColor": "#f16e8f"
     },
     "CompletionPopup": {
-      "nonFocusedState": false,
-      "background": "#FFFAE3",
+      "nonFocusedMask": false,
       "foreground": "#76809A",
       "selectionBackground": "#ffe8c4",
-      "selectionForeground": "#76809A",
       "matchForeground": "#f16e8f",
-      "matchSelectionForeground": "#f14667",
-      "infoForeground": "#76809A",
-      "selectionInactiveBackground": "#FFE1AF",
-      "selectionInactiveInfoForeground": "#76809A",
-      "selectionInfoForeground": "#C77B98"
+      "selectionInactiveBackground": "#FFE1AF"
     },
     "SearchEverywhere": {
       "Header": {
@@ -278,7 +272,7 @@
     },
     "StatusBar.borderColor": "#f5f5f5",
     "DebuggerTabs": {
-      "selectedBackground": "#eae8f6"
+      "underlinedTabBackground": "#eae8f6"
     },
     "ValidationTooltip": {
       "warningBackground": "#f5ebd7",
