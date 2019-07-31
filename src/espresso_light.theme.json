@@ -9,8 +9,8 @@
       "foreground": "#325a7d"
     },
     "TitlePane": {
-      "background": "#fffae9",
-      "infoForeground": "#ed4b6e",
+      "background": "#f3f3f3",
+      "infoForeground": "#325a7d",
       "inactiveInfoForeground": "#c06a8e"
     },
     "SplitPaneDivider.draggingColor": "#e0e2fb",
@@ -119,12 +119,12 @@
       "secondaryForeground": "#77a8d9"
     },
     "Menu": {
-      "background": "#fffbea",
+      "background": "#f3f3f3",
       "foreground": "#325a7d",
       "selectionForeground": "#f16e8f",
       "acceleratorSelectionForeground": "#C77B98",
       "acceleratorForeground": "#f16e8f",
-      "separatorColor": "#FFE1AF",
+      "separatorColor": "#325a7d",
       "borderColor": "#f16e8f"
     },
     "MenuBar": {
