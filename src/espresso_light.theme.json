@@ -59,8 +59,8 @@
     },
     "EditorTabs": {
       "background": "#FFFFFF",
-      "underlineColor": "#325a7d",
-      "underlinedTabBackground": "#f3f3f3",
+      "underlineColor": "#D8E335",
+      "underlinedTabBackground": "#ffffe4",
       "underlinedTabForeground": "#325a7d",
       "borderColor": "#cedee8",
       "hoverMaskColor": "#f3f3f3"
