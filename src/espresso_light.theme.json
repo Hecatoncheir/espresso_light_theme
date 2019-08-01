@@ -249,15 +249,17 @@
         "borderColor": "#e6e6e6"
       },
       "HeaderTab": {
+        "underlinedTabBackground": "#f5f5f5",
+        "underlineColor": "#76809A",
         "selectedBackground": "#ffffff",
         "hoverBackground": "#dde46c",
         "selectedInactiveBackground": "#ffffff",
         "hoverInactiveBackground": "#fbfbfb"
       },
       "Button": {
-        "selectedBackground": "#e4e4e4",
-        "selectedForeground": "#ed3b6e",
-        "hoverBackground": "#dde46c"
+        "selectedBackground": "#fbfbfb",
+        "selectedForeground": "#af2c55",
+        "hoverBackground": "#ffffff"
       }
     },
     "ToolTip": {
@@ -271,9 +273,6 @@
       "FileHistory.Commit.selectedBranchBackground": "#e6f0f2"
     },
     "StatusBar.borderColor": "#f5f5f5",
-    "DebuggerTabs": {
-      "underlinedTabBackground": "#eae8f6"
-    },
     "ValidationTooltip": {
       "warningBackground": "#f5ebd7",
       "warningBorderColor": "#E0CEA8",
@@ -296,6 +295,9 @@
     },
     "DebuggerPopup": {
       "borderColor": "#B7D06f"
+    },
+    "DebuggerTabs": {
+      "underlinedTabBackground": "#eae8f6"
     }
   },
   "icons": {
