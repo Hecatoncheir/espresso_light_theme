@@ -297,7 +297,8 @@
       "borderColor": "#B7D06f"
     },
     "DebuggerTabs": {
-      "underlinedTabBackground": "#eae8f6"
+      "underlinedTabBackground": "#d8e8f2",
+      "underlineHeight": 1
     }
   },
   "icons": {
