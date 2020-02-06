@@ -1,3 +1,10 @@
+ <b>1.1.4</b>
+    <ul>
+        <li>Update GoLang colors.</li>
+    </ul>
+
+<br/>
+
  <b>1.1.3</b>
     <ul>
         <li>Update debugger tabs color.</li>
