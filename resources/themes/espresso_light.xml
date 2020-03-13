@@ -1,7 +1,7 @@
 <scheme name="light_theme" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2020-02-06T14:25:54</property>
+    <property name="created">2020-03-13T06:31:47</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2019.3.2.0.0</property>
     <property name="modified">2020-02-06T14:26:00</property>
@@ -689,12 +689,6 @@
         <option name="FOREGROUND" value="5c9f30" />
       </value>
     </option>
-    <option name="GO_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="4b5f86" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="GO_LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="6c279c" />
@@ -707,28 +701,13 @@
     </option>
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="4d226c" />
-        <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="5" />
+        <option name="FOREGROUND" value="442655" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="GO_PACKAGE_LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="432e80" />
-      </value>
-    </option>
-    <option name="GO_REASSIGNMENT_IN_SHORT_VAR_DECLARATION">
-      <value>
-        <option name="FOREGROUND" value="b1c160" />
-        <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="b1c160" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="GO_SHADOWING_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="6e3c9a" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
