@@ -1,3 +1,10 @@
+ <b>1.1.5</b>
+    <ul>
+        <li>Update GoLang package colors.</li>
+    </ul>
+
+<br/>
+
  <b>1.1.4</b>
     <ul>
         <li>Update GoLang colors.</li>
