@@ -63,7 +63,7 @@
       "underlinedTabBackground": "#ffffe4",
       "underlinedTabForeground": "#325a7d",
       "borderColor": "#cedee8",
-      "hoverMaskColor": "#f3f3f3"
+      "hoverBackground": "#f3f3f3"
     },
     "EditorPane": {
       "foreground": "#325a7d",
@@ -105,8 +105,8 @@
       "passedEndColor": "#dde46c"
     },
     "HelpTooltip": {
-      "background": "#fffbea",
-      "foreground": "#325a7d"
+      "borderColor": "#fffbea",
+      "infoForeground": "#325a7d"
     },
     "GutterTooltip": {
       "infoForeground": "#B7D06f"
@@ -251,7 +251,6 @@
       "HeaderTab": {
         "underlinedTabBackground": "#f5f5f5",
         "underlineColor": "#76809A",
-        "selectedBackground": "#ffffff",
         "hoverBackground": "#dde46c",
         "selectedInactiveBackground": "#ffffff",
         "hoverInactiveBackground": "#fbfbfb"
@@ -299,6 +298,9 @@
     "DebuggerTabs": {
       "underlinedTabBackground": "#d8e8f2",
       "underlineHeight": 1
+    },
+    "SidePanel": {
+      "background": "#323846"
     }
   },
   "icons": {
