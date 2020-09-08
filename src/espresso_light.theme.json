@@ -318,7 +318,8 @@
       "Actions.GreyInline": "#676a7b",
       "Actions.GreyInline.Dark": "#325a7d",
       "Actions.Green": "#B7D06f",
-      "Actions.Red": "#ed3b6e"
+      "Actions.Red": "#ed3b6e",
+      "Tree.iconColor": "#325a7d"
     }
   }
 }
