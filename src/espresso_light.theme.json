@@ -218,9 +218,9 @@
       "rowHeight": 22,
       "background": "#f5f5f5",
       "foreground": "#325a7d",
-      "selectionBackground": "#FFFFFF",
-      "selectionForeground": "#ed3b6e",
-      "selectionInactiveBackground": "#FFFFFF"
+      "selectionBackground": "#76809A",
+      "selectionForeground": "#f5f5f5",
+      "selectionInactiveBackground": "#76809A"
     },
     "Panel": {
       "background": "#f3f3f3",
