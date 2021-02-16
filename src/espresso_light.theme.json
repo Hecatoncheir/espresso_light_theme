@@ -2,22 +2,28 @@
   "name": "Espresso Light",
   "dark": false,
   "author": "Vitaliy Vostrikov",
+
   "editorScheme": "/themes/espresso_light.xml",
+
   "ui": {
     "*": {
       "background": "#fbfbfb",
       "foreground": "#325a7d"
     },
+
     "TitlePane": {
       "background": "#f3f3f3",
       "infoForeground": "#325a7d",
       "inactiveInfoForeground": "#c06a8e"
     },
+
     "SplitPaneDivider.draggingColor": "#e0e2fb",
+
     "Borders": {
       "color": "#fbfbfb",
       "ContrastBorderColor": "#f5f5f5"
     },
+
     "ComboBox": {
       "background": "#fffae9",
       "foreground": "#c06a8e",
@@ -27,9 +33,11 @@
         "iconColor": "#ed3b6e"
       }
     },
+
     "CheckBox": {
       "background": "#f5f5f5"
     },
+
     "Button": {
       "background": "#f5f5f5",
       "shadowColor": "#fbfbfb",
@@ -46,6 +54,7 @@
         "focusedBorderColor": "#325a7d"
       }
     },
+
     "ToggleButton": {
       "onBackground": "#abd053",
       "onForeground": "#ffffff",
@@ -54,9 +63,11 @@
       "buttonColor": "#fffae9",
       "borderColor": "#ffb388"
     },
+
     "RadioButton": {
       "background": "#f3f3f3"
     },
+
     "EditorTabs": {
       "background": "#FFFFFF",
       "underlineColor": "#D8E335",
@@ -65,10 +76,12 @@
       "borderColor": "#cedee8",
       "hoverBackground": "#f3f3f3"
     },
+
     "EditorPane": {
       "foreground": "#325a7d",
       "selectionForeground": "#325a7d"
     },
+
     "Notification": {
       "borderColor": "#C77B98",
       "background": "#fffae9",
@@ -92,6 +105,7 @@
         "innerBorderColor": "#ffb388"
       }
     },
+
     "ProgressBar": {
       "background": "#325a7d",
       "foreground": "#fffae9",
@@ -104,13 +118,15 @@
       "passedColor": "#B7D06f",
       "passedEndColor": "#dde46c"
     },
+
     "HelpTooltip": {
-      "borderColor": "#fffbea",
-      "infoForeground": "#325a7d"
+      "borderColor": "#fffbea"
     },
+
     "GutterTooltip": {
       "infoForeground": "#B7D06f"
     },
+
     "Link": {
       "activeForeground": "#2163A6",
       "hoverForeground": "#2163A6",
@@ -118,6 +134,7 @@
       "visitedForeground": "#2163A6",
       "secondaryForeground": "#77a8d9"
     },
+
     "Menu": {
       "background": "#f3f3f3",
       "foreground": "#325a7d",
@@ -127,6 +144,7 @@
       "separatorColor": "#325a7d",
       "borderColor": "#f16e8f"
     },
+
     "MenuBar": {
       "selectionForeground": "#f16e8f",
       "selectionBackground": "#FFE1AF",
@@ -134,11 +152,13 @@
       "highlight": "#ff4b68",
       "borderColor": "#C77B98"
     },
+
     "MenuItem": {
       "foreground": "#325a7d",
       "selectionForeground": "#ff4b68",
       "selectionBackground": "#C77B98"
     },
+
     "ScrollBar": {
       "background": "#f5f5f5",
       "trackColor": "#f5f5f5",
@@ -261,12 +281,15 @@
         "hoverBackground": "#ffffff"
       }
     },
+
     "ToolTip": {
       "background": "#FFFAE3",
+      "infoForeground":"#325a7d",
       "Actions": {
         "background": "#FFFAE3"
       }
     },
+
     "VersionControl": {
       "Log.Commit.currentBranchBackground": "#FFFAE3",
       "FileHistory.Commit.selectedBranchBackground": "#e6f0f2"
@@ -295,14 +318,18 @@
     "DebuggerPopup": {
       "borderColor": "#B7D06f"
     },
+
     "DebuggerTabs": {
       "underlinedTabBackground": "#d8e8f2",
       "underlineHeight": 1
     },
+
     "SidePanel": {
       "background": "#323846"
     }
+
   },
+
   "icons": {
     "ColorPalette": {
       "Checkbox.Border.Default": "#adadad",
