@@ -332,6 +332,7 @@
 
   "icons": {
     "ColorPalette": {
+      "Tree.iconColor": "#325a7d",
       "Checkbox.Border.Default": "#adadad",
       "Objects.GreenAndroid": "#B7D06f",
       "Objects.RedStatus": "#ed3b6e",
