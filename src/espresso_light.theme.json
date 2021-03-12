@@ -105,8 +105,7 @@
       "passedEndColor": "#dde46c"
     },
     "HelpTooltip": {
-      "borderColor": "#fffbea",
-      "infoForeground": "#325a7d"
+      "borderColor": "#fffbea"
     },
     "GutterTooltip": {
       "infoForeground": "#B7D06f"
@@ -263,6 +262,7 @@
     },
     "ToolTip": {
       "background": "#FFFAE3",
+      "infoForeground": "#325a7d",
       "Actions": {
         "background": "#FFFAE3"
       }
