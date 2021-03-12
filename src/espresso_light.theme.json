@@ -136,8 +136,12 @@
     },
     "MenuItem": {
       "foreground": "#325a7d",
-      "selectionForeground": "#FFE1AF",
-      "selectionBackground": "#f16e8f"
+      "background": "#d8e8f2",
+      "selectionForeground": "#325a7d",
+      "selectionBackground": "#d8e8f2",
+      "disabledForeground": "#7aa5c4",
+      "disabledBackground": "#d8e8f2",
+      "acceleratorForeground": "#325a7d"
     },
     "ScrollBar": {
       "background": "#f5f5f5",
