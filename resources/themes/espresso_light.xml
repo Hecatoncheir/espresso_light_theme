@@ -1,10 +1,10 @@
 <scheme name="Espresso Light" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2021-03-12T15:30:57</property>
+    <property name="created">2021-03-12T16:43:27</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.3.2.0.0</property>
-    <property name="modified">2021-03-12T15:31:01</property>
+    <property name="modified">2021-03-12T16:43:30</property>
     <property name="originalScheme">_@user_light_theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
@@ -875,7 +875,7 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="b43cff" />
+        <option name="BACKGROUND" value="2fbcf1" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>

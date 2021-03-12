@@ -9,7 +9,7 @@
       "foreground": "#325a7d"
     },
     "TitlePane": {
-      "background": "#f3f3f3",
+      "background": "#f5f5f5",
       "infoForeground": "#325a7d",
       "inactiveInfoForeground": "#c06a8e"
     },
@@ -38,8 +38,8 @@
       "foreground": "#325a7d",
       "default": {
         "foreground": "#325a7d",
-        "startBackground": "#f3f3f3",
-        "endBackground": "#f3f3f3",
+        "startBackground": "#f5f5f5",
+        "endBackground": "#f5f5f5",
         "startBorderColor": "#325a7d",
         "endBorderColor": "#325a7d",
         "shadowColor": "#fbfbfb",
@@ -55,15 +55,16 @@
       "borderColor": "#ffb388"
     },
     "RadioButton": {
-      "background": "#f3f3f3"
+      "background": "#f5f5f5"
     },
     "EditorTabs": {
-      "background": "#FFFFFF",
-      "underlineColor": "#D8E335",
-      "underlinedTabBackground": "#ffffe4",
-      "underlinedTabForeground": "#325a7d",
-      "borderColor": "#cedee8",
-      "hoverBackground": "#f3f3f3"
+      "background": "#f5f5f5",
+      "underlineColor": "#ffffff",
+      "underlinedTabBackground": "#ffffff",
+      "underlinedTabForeground": "#728eaa",
+      "inactiveUnderlineColor": "#ffffff",
+      "borderColor": "#FFFFF",
+      "hoverBackground": "#ffffff"
     },
     "EditorPane": {
       "foreground": "#325a7d",
@@ -118,7 +119,7 @@
       "secondaryForeground": "#77a8d9"
     },
     "Menu": {
-      "background": "#f3f3f3",
+      "background": "#f5f5f5",
       "foreground": "#325a7d",
       "selectionForeground": "#f16e8f",
       "acceleratorSelectionForeground": "#C77B98",
@@ -135,8 +136,8 @@
     },
     "MenuItem": {
       "foreground": "#325a7d",
-      "selectionForeground": "#ff4b68",
-      "selectionBackground": "#C77B98"
+      "selectionForeground": "#FFE1AF",
+      "selectionBackground": "#f16e8f"
     },
     "ScrollBar": {
       "background": "#f5f5f5",
@@ -145,23 +146,23 @@
       "hoverTrackColor": "#d8e8f2",
       "thumbColor": "#e3e4f1",
       "hoverThumbColor": "#325a7d",
-      "thumbBorderColor": "#f3f3f3",
-      "hoverThumbBorderColor": "#f16e8f",
-      "thumbHighlight": "#325a7d",
+      "thumbBorderColor": "#f5f5f5",
+      "hoverThumbBorderColor": "#ffffff",
+      "thumbHighlight": "#ffffff",
       "Transparent": {
-        "trackColor": "#f5f5f5",
-        "hoverTrackColor": "#dde46c",
+        "trackColor": "#ffffff",
+        "hoverTrackColor": "#ffffff",
         "thumbColor": "#e3e4f1",
-        "hoverThumbColor": "#B7D06f",
-        "thumbBorderColor": "#f3f3f3"
+        "hoverThumbColor": "#e3e4f1",
+        "thumbBorderColor": "#ffffff"
       },
       "Mac": {
         "Transparent": {
-          "trackColor": "#FFFAE3",
-          "hoverTrackColor": "#dde46c",
-          "thumbColor": "#FFE1AF",
-          "hoverThumbColor": "#B7D06f",
-          "thumbBorderColor": "#dde46c"
+          "trackColor": "#ffffff",
+          "hoverTrackColor": "#ffffff",
+          "thumbColor": "#e3e4f1",
+          "hoverThumbColor": "#e3e4f1",
+          "thumbBorderColor": "#ffffff"
         }
       }
     },
@@ -217,12 +218,12 @@
       "rowHeight": 22,
       "background": "#f5f5f5",
       "foreground": "#325a7d",
-      "selectionBackground": "#FFFFFF",
-      "selectionForeground": "#ed3b6e",
-      "selectionInactiveBackground": "#FFFFFF"
+      "selectionBackground": "#c3dbec",
+      "selectionForeground": "#325a7d",
+      "selectionInactiveBackground": "#ffffff"
     },
     "Panel": {
-      "background": "#f3f3f3",
+      "background": "#f5f5f5",
       "foreground": "#325a7d"
     },
     "Label": {
@@ -243,16 +244,18 @@
     },
     "ToolWindow": {
       "Header": {
-        "background": "#dde3ef",
+        "background": "#ddebef",
         "inactiveBackground": "#f1f1f1",
         "borderColor": "#e6e6e6"
       },
       "HeaderTab": {
         "underlinedTabBackground": "#f5f5f5",
-        "underlineColor": "#76809A",
-        "hoverBackground": "#dde46c",
+        "underlineColor": "#f5f5f5",
+        "hoverBackground": "#f5f5f5",
         "selectedInactiveBackground": "#ffffff",
-        "hoverInactiveBackground": "#fbfbfb"
+        "hoverInactiveBackground": "#fbfbfb",
+        "underlinedTabInactiveBackground": "#ffffff",
+        "inactiveUnderlineColor": "#ffffff"
       },
       "Button": {
         "selectedBackground": "#fbfbfb",
@@ -300,7 +303,7 @@
       "underlineHeight": 1
     },
     "SidePanel": {
-      "background": "#323846"
+      "background": "#f5f5f5"
     }
   },
   "icons": {
