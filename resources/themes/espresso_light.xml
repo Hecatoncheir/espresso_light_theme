@@ -5,7 +5,7 @@
     <property name="ide">idea</property>
     <property name="ideVersion">2020.3.2.0.0</property>
     <property name="modified">2021-03-12T16:43:30</property>
-    <property name="originalScheme">_@user_light_theme</property>
+    <property name="originalScheme">light_theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
   <option name="EDITOR_FONT_SIZE" value="15" />
