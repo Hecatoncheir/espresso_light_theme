@@ -253,8 +253,8 @@
         "borderColor": "#e6e6e6"
       },
       "HeaderTab": {
-        "underlinedTabBackground": "#f5f5f5",
-        "underlineColor": "#f5f5f5",
+        "underlinedTabBackground": "#ffffff",
+        "underlineColor": "#ffffff",
         "hoverBackground": "#f5f5f5",
         "selectedInactiveBackground": "#ffffff",
         "hoverInactiveBackground": "#fbfbfb",
