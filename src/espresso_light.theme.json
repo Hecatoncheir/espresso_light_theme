@@ -303,8 +303,6 @@
       "borderColor": "#B7D06f"
     },
     "DebuggerTabs": {
-      "underlinedTabBackground": "#d8e8f2",
-      "underlineHeight": 1
     },
     "SidePanel": {
       "background": "#f5f5f5"
