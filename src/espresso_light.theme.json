@@ -10,7 +10,7 @@
     },
     "TitlePane": {
       "background": "#f5f5f5",
-      "infoForeground": "#325a7d",
+      "infoForeground": "#324a7d",
       "inactiveInfoForeground": "#c06a8e"
     },
     "SplitPaneDivider.draggingColor": "#e0e2fb",
@@ -67,6 +67,7 @@
       "hoverBackground": "#ffffff"
     },
     "EditorPane": {
+      "background": "#fffae9",
       "foreground": "#325a7d",
       "selectionForeground": "#325a7d"
     },
@@ -119,12 +120,14 @@
       "secondaryForeground": "#77a8d9"
     },
     "Menu": {
-      "background": "#f5f5f5",
+      "background": "#fff8e7",
       "foreground": "#325a7d",
+      "selectionBackground": "fff0cb",
       "selectionForeground": "#f16e8f",
       "acceleratorSelectionForeground": "#C77B98",
       "acceleratorForeground": "#f16e8f",
-      "separatorColor": "#325a7d",
+      "disabledBackground": "fff0cb",
+      "separatorColor": "#fff8e7",
       "borderColor": "#f16e8f"
     },
     "MenuBar": {
@@ -186,10 +189,10 @@
       "dropLineColor": "#f16e8f"
     },
     "CompletionPopup": {
-      "nonFocusedMask": false,
-      "foreground": "#76809A",
-      "selectionBackground": "#ffe8c4",
-      "matchForeground": "#f16e8f",
+      "nonFocusedMask": true,
+      "foreground": "#325a7d",
+      "selectionBackground": "#ffffff",
+      "matchForeground": "#f14568",
       "selectionInactiveBackground": "#FFE1AF"
     },
     "SearchEverywhere": {
@@ -236,13 +239,13 @@
     },
     "Popup": {
       "Header": {
-        "activeBackground": "#E1E2E3",
-        "inactiveBackground": "#E1E2E3"
+        "activeBackground": "#d6dde3",
+        "inactiveBackground": "#d6dde3"
       },
-      "separatorForeground": "#999999",
+      "separatorForeground": "#45566c",
       "Advertiser": {
-        "background": "#E1E2E3",
-        "foreground": "#8C8C8C",
+        "background": "#d6dde3",
+        "foreground": "#45566c",
         "borderInsets": "3,6,3,0"
       }
     },

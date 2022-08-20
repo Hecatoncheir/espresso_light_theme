@@ -1,16 +1,11 @@
 <scheme name="Espresso Light" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2021-03-12T16:43:27</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2020.3.2.0.0</property>
-    <property name="modified">2021-03-12T16:43:30</property>
-    <property name="originalScheme">light_theme</property>
+    <property name="created">2022-08-21T01:56:09</property>
+    <property name="ide">Idea</property>
+    <property name="ideVersion">2022.2.1.0.0</property>
+    <property name="modified">2022-08-21T01:56:15</property>
+    <property name="originalScheme">Espresso Light</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.1" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
-  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-  <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="dbf0a0" />
     <option name="CARET_COLOR" value="630c50" />
@@ -30,6 +25,7 @@
     <option name="INFORMATION_HINT" value="c6ee86" />
     <option name="LINE_NUMBERS_COLOR" value="677392" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ff387c" />
+    <option name="LOOKUP_COLOR" value="fffceb" />
     <option name="MODIFIED_LINES_COLOR" value="ddecf8" />
     <option name="QUESTION_HINT" value="e0e13b" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="fffaeb" />
@@ -82,6 +78,14 @@
       </value>
     </option>
     <option name="BRACE_ATTR">
+      <value>
+        <option name="FOREGROUND" value="a0bc3d" />
+        <option name="BACKGROUND" value="d2da86" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="ERROR_STRIPE_COLOR" value="c9d23f" />
+      </value>
+    </option>
+    <option name="BRACE_ATTR_GUTTER">
       <value>
         <option name="FOREGROUND" value="a0bc3d" />
         <option name="BACKGROUND" value="d2da86" />
@@ -538,6 +542,12 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEPRECATED_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="325a7d" />
+        <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="DIFF_CONFLICT">
       <value>
         <option name="BACKGROUND" value="ffddda" />
@@ -572,9 +582,9 @@
     <option name="DOUBLE_QUOTE_ATTR">
       <value>
         <option name="FOREGROUND" value="b43a8c" />
-        <option name="BACKGROUND" value="fdda94" />
+        <option name="BACKGROUND" value="d2da86" />
         <option name="FONT_TYPE" value="1" />
-        <option name="ERROR_STRIPE_COLOR" value="fdda94" />
+        <option name="ERROR_STRIPE_COLOR" value="c9d23f" />
       </value>
     </option>
     <option name="DOUBLE_QUOTE_LINE_ATTR">
@@ -753,6 +763,41 @@
         <option name="ERROR_STRIPE_COLOR" value="ffd3ab" />
       </value>
     </option>
+    <option name="INDENT_RAINBOW_COLOR_1">
+      <value>
+        <option name="BACKGROUND" value="f4f5fb" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_2">
+      <value>
+        <option name="BACKGROUND" value="f0fbf7" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_3">
+      <value>
+        <option name="BACKGROUND" value="f9fcf5" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_4">
+      <value>
+        <option name="BACKGROUND" value="fff8f3" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_5">
+      <value>
+        <option name="BACKGROUND" value="fff1f0" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_6">
+      <value>
+        <option name="BACKGROUND" value="ffebec" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_ERROR">
+      <value>
+        <option name="BACKGROUND" value="d9bcbc" />
+      </value>
+    </option>
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="e2446a" />
@@ -792,6 +837,11 @@
     <option name="JAVADOC_WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff0000" />
+      </value>
+    </option>
+    <option name="JAVA_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="db1469" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
@@ -1031,7 +1081,7 @@
       <value>
         <option name="FOREGROUND" value="630c50" />
         <option name="BACKGROUND" value="ffecbc" />
-        <option name="EFFECT_COLOR" value="e2175d" />
+        <option name="EFFECT_COLOR" value="325a7d" />
         <option name="ERROR_STRIPE_COLOR" value="e2175d" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
