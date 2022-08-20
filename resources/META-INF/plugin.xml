@@ -4,6 +4,18 @@
   <version>1.2.0</version>
   <vendor email="vivat.hecatoncheir@gmail.com" url="http://hecatoncheir.github.io/">Hecatoncheir</vendor>
 
+  <!-- Minimum and maximum build of IDE compatible with the plugin -->
+  <idea-version since-build="191.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="5ae631a4-e0b6-4d1e-ace1-411251040657"
+                   path="/espresso_light.theme.json"/>
+  </extensions>
+
+  <actions/>
+
   <description><![CDATA[
       Espresso light theme for IntelliJ <br>
       <img src="https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/editor.png" border="0" width="700"/>
@@ -125,17 +137,5 @@
     </ul>
     ]]>
   </change-notes>
-
-  <!-- Minimum and maximum build of IDE compatible with the plugin -->
-  <idea-version since-build="191.0"/>
-
-  <depends>com.intellij.modules.lang</depends>
-
-  <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="5ae631a4-e0b6-4d1e-ace1-411251040657"
-                   path="/espresso_light.theme.json"/>
-  </extensions>
-
-  <actions></actions>
 
 </idea-plugin>
