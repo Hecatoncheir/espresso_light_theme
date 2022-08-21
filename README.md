@@ -6,8 +6,6 @@
 Espresso light theme for IntelliJ
 <!-- Plugin description end -->
 
-<iframe width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/12317"></iframe>
-
 ### Editor
 ![Espresso light theme editor window](/docs/screenshots/editor.png)
 
