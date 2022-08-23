@@ -122,12 +122,13 @@
     "Menu": {
       "background": "#fff8e7",
       "foreground": "#325a7d",
-      "selectionBackground": "fff0cb",
+      "selectionBackground": "#fff0cb",
       "selectionForeground": "#f16e8f",
       "acceleratorSelectionForeground": "#C77B98",
       "acceleratorForeground": "#f16e8f",
-      "disabledBackground": "fff0cb",
-      "separatorColor": "#fff8e7",
+      "disabledBackground": "#fff8e7",
+      "disabledForeground": "#C77B98",
+      "separatorColor": "#ffffff",
       "borderColor": "#f16e8f"
     },
     "MenuBar": {

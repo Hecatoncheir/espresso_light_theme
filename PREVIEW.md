@@ -19,10 +19,6 @@ IDEA Light theme
 ### Error PopUp
 ![Espresso light theme popup window](/docs/screenshots/error_popup.png)
 
-### Brace highlight
-
-![Golang](/docs/screenshots/brace_highlight.gif)
-
 ### Golang syntax
 
 ![Golang](/docs/screenshots/golang.png)
