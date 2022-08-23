@@ -191,9 +191,9 @@
     "CompletionPopup": {
       "nonFocusedMask": true,
       "foreground": "#325a7d",
-      "selectionBackground": "#ffffff",
+      "selectionBackground": "#fff0cb",
       "matchForeground": "#f14568",
-      "selectionInactiveBackground": "#FFE1AF"
+      "selectionInactiveBackground": "#fff0cb"
     },
     "SearchEverywhere": {
       "Header": {
