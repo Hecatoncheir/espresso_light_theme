@@ -1,0 +1,16 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Dark-UI variant: same shape, lifted tones so it stays legible on #2b2d30. -->
+    <path d="M16.5 10C14 8 19 5.5 16.5 3.5" stroke="#f4859f" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M23.5 10C21 8 26 5.5 23.5 3.5" stroke="#f4859f" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M28 17C34 17 34 23.5 28 23.5" stroke="#f16e8f" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="20" cy="33" rx="15" ry="3" fill="#f4859f"/>
+    <path d="M10 13A10 2.6 0 0 1 30 13V19C30 25.5 25.5 30 20 30C14.5 30 10 25.5 10 19Z" fill="url(#cupDark)"/>
+    <ellipse cx="20" cy="13" rx="8.3" ry="1.9" fill="#ffe1af"/>
+    <defs>
+        <linearGradient id="cupDark" x1="10" y1="13" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#f4859f"/>
+            <stop offset="0.55" stop-color="#f16e8f"/>
+            <stop offset="1" stop-color="#ed3b6e"/>
+        </linearGradient>
+    </defs>
+</svg>

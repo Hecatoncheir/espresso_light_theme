@@ -3,10 +3,10 @@ import org.jetbrains.changelog.markdownToHTML
 fun properties(key: String) = project.findProperty(key).toString()
 
 plugins {
-    // Java support
+    // Java support. The Gradle IntelliJ Plugin applies it anyway; declaring it
+    // keeps the toolchain block below readable. No Kotlin plugin: this project
+    // is resources only and has nothing to compile.
     id("java")
-    // Kotlin support
-    id("org.jetbrains.kotlin.jvm") version "1.7.10"
     // Gradle IntelliJ Plugin
     id("org.jetbrains.intellij") version "1.8.0"
     // Gradle Changelog Plugin
@@ -24,8 +24,8 @@ repositories {
 }
 
 // Set the JVM language level used to compile sources and generate files - Java 11 is required since 2020.3
-kotlin {
-    jvmToolchain {
+java {
+    toolchain {
         languageVersion.set(JavaLanguageVersion.of(11))
     }
 }
@@ -59,9 +59,15 @@ tasks {
         gradleVersion = properties("gradleVersion")
     }
 
+    runPluginVerifier {
+        ideVersions.set(properties("pluginVerifierIdeVersions").split(',').map(String::trim).filter(String::isNotEmpty))
+    }
+
     patchPluginXml {
         version.set(properties("pluginVersion"))
         sinceBuild.set(properties("pluginSinceBuild"))
+        // An empty pluginUntilBuild leaves the attribute out entirely: patchAttribute()
+        // returns early on a blank value, so no until-build is written.
         untilBuild.set(properties("pluginUntilBuild"))
 
         // Extract the <!-- Plugin description --> section from README.md and provide for the plugin's manifest

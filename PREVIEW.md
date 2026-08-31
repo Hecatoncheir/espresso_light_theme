@@ -1,28 +1,43 @@
-## Preview
-IDEA Light theme
+# Espresso Light Theme — preview
 
+## Editor
+![Editor](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/editor.png)
 
-### Editor
-![Espresso light theme editor window](/docs/screenshots/editor.png)
+## Debug
+![Debug](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/debug.png)
 
-### Debug 
-![Espresso light theme debug](/docs/screenshots/debug.png)
+## Debug window
+![Debug window](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/debug_window.png)
 
-### Completion
-![Espresso light theme completion](/docs/screenshots/completion.png)
+## Completion
+![Completion](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/completion.png)
 
+## Menu
+![Menu](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/menu.png)
 
+## Tabs
+![Tabs](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/tabs.png)
 
-### PopUp
-![Espresso light theme popup window](/docs/screenshots/popup.png)
+## Search
+![Search](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/search.png)
 
-### Error PopUp
-![Espresso light theme popup window](/docs/screenshots/error_popup.png)
+## Popup
+![Popup](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/popup.png)
 
-### Golang syntax
+## Error popup
+![Error popup](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/error_popup.png)
 
-![Golang](/docs/screenshots/golang.png)
+## Settings
+![Settings](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/settings.png)
 
-### Dart syntax
+## Colour scheme
+![Colour scheme](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/colors.png)
 
-![Golang](/docs/screenshots/dart.png)
+## Bracket pair highlighting
+![Bracket pair highlighting](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/brace_highlight.gif)
+
+## Go syntax
+![Go syntax](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/golang.png)
+
+## Dart syntax
+![Dart syntax](https://github.com/hecatoncheir/espresso_light_theme/raw/master/docs/screenshots/dart.png)
