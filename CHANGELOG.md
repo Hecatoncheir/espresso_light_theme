@@ -96,6 +96,6 @@
 
 - Update minimum idea version to 191.0.
 
-## [1.0] - 2019-03-29
+## [1.0.0] - 2019-03-29
 
 - First release.
