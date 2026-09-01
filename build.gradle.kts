@@ -104,6 +104,13 @@ tasks {
         certificateChain.set(System.getenv("CERTIFICATE_CHAIN"))
         privateKey.set(System.getenv("PRIVATE_KEY"))
         password.set(System.getenv("PRIVATE_KEY_PASSWORD"))
+
+        // Signing is optional on Marketplace, but signPlugin is a hard dependency
+        // of publishPlugin and fails the whole publish when no certificate is
+        // configured. Skip it instead: publishPlugin falls back to the unsigned
+        // archive when signPlugin did not run (IntelliJPlugin wires that via
+        // `takeIf { signPluginTask.didWork }`).
+        onlyIf { !System.getenv("CERTIFICATE_CHAIN").isNullOrBlank() }
     }
 
     publishPlugin {
