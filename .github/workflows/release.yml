@@ -38,7 +38,10 @@ jobs:
           PRIVATE_KEY_PASSWORD: ${{ secrets.PRIVATE_KEY_PASSWORD }}
         run: ./gradlew publishPlugin
 
+      # Only a release event carries a tag to upload to; a manual run publishes
+      # to Marketplace and stops there.
       - name: Attach the distribution to the release
+        if: github.event_name == 'release'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh release upload "${{ github.event.release.tag_name }}" build/distributions/*.zip --clobber
