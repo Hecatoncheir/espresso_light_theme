@@ -6,17 +6,8 @@
 
 ## [1.4.2] - 2026-09-01
 
-### Changed
-- Migrated from the Gradle IntelliJ Plugin 1.8.0 to the IntelliJ Platform Gradle Plugin 2.18.1, which is the maintained one. The old plugin only worked on Gradle 7: it breaks on Gradle 8 (`ArchivePublishArtifact`) and on Gradle 9 (`JavaPluginConvention`).
-- Gradle 7.5.1 to 9.7.1, and the build now targets IntelliJ Platform 2025.2.6 instead of 2021.3.3. CI runs on Java 21, which build 252 requires.
-- `buildSearchableOptions` is off: a colour theme has no searchable settings, and building them starts a full IDE.
-- Plugin signing is now skipped by the platform plugin itself when no certificate is configured, so the local `onlyIf` guard added in 1.4.1 is gone.
-- Dropped Qodana. It analyses source code, and this project has none.
-
-### Removed
-- `pluginUntilBuild` and `platformPlugins` properties, both unused: `until-build` is now unset directly in the build script, and the theme depends on no plugins.
-
-## [1.4.1] - 2026-09-01
+Released together: 1.4.1 was prepared but never published, so everything below
+ships in this version.
 
 ### Added
 - New UI coverage (IDEA 2022.3 and newer): `MainToolbar`, `MainMenu`, `RunWidget`, `Tag`, `Counter`, `OnePixelDivider`, `TableHeader` and `DefaultTabs`. The theme described 38 components and now describes 46; on any recent IDE those surfaces previously fell back to platform defaults. Key names come from the platform's own `expUI_light.theme.json`.
@@ -28,6 +19,16 @@
 - Selected labels in lists and tables were hard to read at 3.21:1 and 2.72:1; they now sit at 5.02:1.
 - Unfocused tree selection was pure white on a `#f5f5f5` tree.
 - Menu separators were white on a cream menu.
+
+### Changed
+- Migrated from the Gradle IntelliJ Plugin 1.8.0 to the IntelliJ Platform Gradle Plugin 2.18.1, which is the maintained one. The old plugin only worked on Gradle 7: it breaks on Gradle 8 (`ArchivePublishArtifact`) and on Gradle 9 (`JavaPluginConvention`).
+- Gradle 7.5.1 to 9.7.1, and the build now targets IntelliJ Platform 2025.2.6 instead of 2021.3.3. CI runs on Java 21, which build 252 requires.
+- `buildSearchableOptions` is off: a colour theme has no searchable settings, and building them starts a full IDE.
+- Plugin signing is now skipped by the platform plugin itself when no certificate is configured, so the local `onlyIf` guard added in 1.4.1 is gone.
+- Dropped Qodana. It analyses source code, and this project has none.
+
+### Removed
+- `pluginUntilBuild` and `platformPlugins` properties, both unused: `until-build` is now unset directly in the build script, and the theme depends on no plugins.
 
 ## [1.4.0] - 2026-08-31
 
