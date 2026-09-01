@@ -4,6 +4,18 @@
 
 ## [Unreleased]
 
+## [1.4.2] - 2026-09-01
+
+### Changed
+- Migrated from the Gradle IntelliJ Plugin 1.8.0 to the IntelliJ Platform Gradle Plugin 2.18.1, which is the maintained one. The old plugin only worked on Gradle 7: it breaks on Gradle 8 (`ArchivePublishArtifact`) and on Gradle 9 (`JavaPluginConvention`).
+- Gradle 7.5.1 to 9.7.1, and the build now targets IntelliJ Platform 2025.2.6 instead of 2021.3.3. CI runs on Java 21, which build 252 requires.
+- `buildSearchableOptions` is off: a colour theme has no searchable settings, and building them starts a full IDE.
+- Plugin signing is now skipped by the platform plugin itself when no certificate is configured, so the local `onlyIf` guard added in 1.4.1 is gone.
+- Dropped Qodana. It analyses source code, and this project has none.
+
+### Removed
+- `pluginUntilBuild` and `platformPlugins` properties, both unused: `until-build` is now unset directly in the build script, and the theme depends on no plugins.
+
 ## [1.4.1] - 2026-09-01
 
 ### Added
