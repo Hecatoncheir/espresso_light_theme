@@ -34,30 +34,10 @@ jobs:
       - name: Build plugin
         run: ./gradlew buildPlugin verifyPlugin
 
-      - name: Check theme descriptors parse
-        run: |
-          python3 -c "import json; json.load(open('src/main/resources/themes/espresso_light.theme.json'))"
-          python3 -c "import xml.etree.ElementTree as ET; ET.parse('src/main/resources/themes/espresso_light.xml')"
-
-      # Catches malformed colour values such as a five-digit hex, which the
-      # platform silently discards at runtime.
-      - name: Check colour values
-        run: |
-          python3 - <<'EOF'
-          import json, re, sys
-          bad = []
-          def walk(node, path=""):
-              if isinstance(node, dict):
-                  for k, v in node.items():
-                      walk(v, f"{path}.{k}")
-              elif isinstance(node, str) and node.startswith("#"):
-                  if not re.fullmatch(r"#(?:[0-9a-fA-F]{3,4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})", node):
-                      bad.append((path, node))
-          walk(json.load(open("src/main/resources/themes/espresso_light.theme.json")))
-          for path, value in bad:
-              print(f"invalid colour {value} at {path}")
-          sys.exit(1 if bad else 0)
-          EOF
+      # Structural checks for the theme descriptors. Every rule in there maps to
+      # a bug that shipped at least once; tools/check_theme.py explains which.
+      - name: Check theme descriptors
+        run: python3 tools/check_theme.py
 
       - uses: actions/upload-artifact@v4
         with:

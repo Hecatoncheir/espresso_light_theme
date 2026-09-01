@@ -156,7 +156,7 @@
       "acceleratorForeground": "accentSoft",
       "disabledBackground": "cream",
       "disabledForeground": "accentMuted",
-      "separatorColor": "white",
+      "separatorColor": "creamDeep",
       "borderColor": "accentSoft"
     },
     "MenuBar": {
@@ -204,24 +204,24 @@
       }
     },
     "Table": {
-      "selectionBackground": "creamLight",
-      "selectionForeground": "accentSoft",
-      "selectionInactiveBackground": "creamDeep",
+      "selectionBackground": "creamDeep",
+      "selectionForeground": "accentDark",
+      "selectionInactiveBackground": "creamSelection",
       "selectionInactiveForeground": "accentMuted"
     },
     "List": {
       "background": "offWhite",
       "foreground": "text",
-      "selectionBackground": "creamSelection",
-      "selectionForeground": "accentBright",
-      "selectionInactiveBackground": "creamDeep",
-      "selectionInactiveForeground": "accentSoft",
+      "selectionBackground": "creamDeep",
+      "selectionForeground": "accentDark",
+      "selectionInactiveBackground": "creamSelection",
+      "selectionInactiveForeground": "accentMuted",
       "dropLineColor": "accentSoft"
     },
     "CompletionPopup": {
       "nonFocusedMask": true,
       "foreground": "text",
-      "selectionBackground": "creamSelection",
+      "selectionBackground": "creamDeep",
       "matchForeground": "accentBright",
       "selectionInactiveBackground": "creamSelection"
     },
@@ -257,7 +257,7 @@
       "foreground": "text",
       "selectionBackground": "#c3dbec",
       "selectionForeground": "text",
-      "selectionInactiveBackground": "white"
+      "selectionInactiveBackground": "blueTint"
     },
     "Panel": {
       "background": "surface",
@@ -337,6 +337,54 @@
     },
     "SidePanel": {
       "background": "surface"
+    },
+    "MainToolbar": {
+      "background": "surface",
+      "foreground": "text",
+      "inactiveBackground": "background",
+      "separatorColor": "border",
+      "Dropdown": {
+        "background": "surface",
+        "foreground": "text",
+        "hoverBackground": "#00000014",
+        "pressedBackground": "#00000024",
+        "transparentHoverBackground": "#00000014"
+      },
+      "Icon": {
+        "background": "surface",
+        "hoverBackground": "#00000014",
+        "pressedBackground": "#00000024"
+      }
+    },
+    "MainMenu": {
+      "background": "cream",
+      "foreground": "text",
+      "selectionBackground": "creamDeep",
+      "selectionForeground": "accentDark"
+    },
+    "RunWidget": {
+      "foreground": "text",
+      "iconColor": "text",
+      "hoverBackground": "#00000014",
+      "pressedBackground": "#00000024",
+      "runningBackground": "green",
+      "runningIconColor": "text"
+    },
+    "DefaultTabs": {
+      "hoverBackground": "creamSelection"
+    },
+    "Tag": {
+      "background": "creamDeep"
+    },
+    "Counter": {
+      "background": "accent",
+      "foreground": "white"
+    },
+    "OnePixelDivider": {
+      "background": "border"
+    },
+    "TableHeader": {
+      "bottomSeparatorColor": "border"
     }
   },
   "icons": {
