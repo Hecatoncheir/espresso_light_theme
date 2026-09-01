@@ -4,6 +4,19 @@
 
 ## [Unreleased]
 
+## [1.4.1] - 2026-09-01
+
+### Added
+- New UI coverage (IDEA 2022.3 and newer): `MainToolbar`, `MainMenu`, `RunWidget`, `Tag`, `Counter`, `OnePixelDivider`, `TableHeader` and `DefaultTabs`. The theme described 38 components and now describes 46; on any recent IDE those surfaces previously fell back to platform defaults. Key names come from the platform's own `expUI_light.theme.json`.
+- `tools/check_theme.py`, run in CI: it rejects invalid colour values, palette names that resolve to nothing, a selection painted in its own background colour, a tab underline the colour of its tab, borders the colour of the background, a focused selection weaker than an unfocused one, and any editor-scheme colour below 1.5:1.
+- `2019.1.4` in the plugin verifier list — the oldest release `pluginSinceBuild` claims, and until now never actually tested.
+
+### Fixed
+- Focused selection was fainter than unfocused selection in lists and tables: `List` read 1.11:1 focused against 1.24:1 unfocused, `Table` 1.03:1 against 1.24:1. Focused selection is now the deeper cream the menus use, unfocused the lighter one.
+- Selected labels in lists and tables were hard to read at 3.21:1 and 2.72:1; they now sit at 5.02:1.
+- Unfocused tree selection was pure white on a `#f5f5f5` tree.
+- Menu separators were white on a cream menu.
+
 ## [1.4.0] - 2026-08-31
 
 ### Added
