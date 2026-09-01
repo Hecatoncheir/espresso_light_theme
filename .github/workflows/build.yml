@@ -17,22 +17,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Two JDKs on purpose: the Gradle toolchain in build.gradle.kts asks for 11,
-      # and setup-java points JAVA_HOME at the last entry, so the daemon runs on 17.
+      # IntelliJ Platform 2025.2 (build 252) requires Java 21.
       - uses: actions/setup-java@v4
         with:
           distribution: zulu
-          java-version: |
-            11
-            17
+          java-version: 21
 
       - uses: gradle/actions/setup-gradle@v4
 
-      # buildPlugin runs patchPluginXml, so a malformed README description
-      # section or a broken CHANGELOG fails here. verifyPlugin then checks the
-      # plugin.xml and the bundled theme descriptors.
+      # buildPlugin patches plugin.xml, so a malformed README description section
+      # or a broken CHANGELOG fails here. The two verify tasks are the cheap ones:
+      # verifyPlugin itself downloads a full IDE per version and runs in its own job.
       - name: Build plugin
-        run: ./gradlew buildPlugin verifyPlugin
+        run: ./gradlew buildPlugin verifyPluginStructure verifyPluginProjectConfiguration
 
       # Structural checks for the theme descriptors. Every rule in there maps to
       # a bug that shipped at least once; tools/check_theme.py explains which.
@@ -53,28 +50,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Two JDKs on purpose: the Gradle toolchain in build.gradle.kts asks for 11,
-      # and setup-java points JAVA_HOME at the last entry, so the daemon runs on 17.
+      # IntelliJ Platform 2025.2 (build 252) requires Java 21.
       - uses: actions/setup-java@v4
         with:
           distribution: zulu
-          java-version: |
-            11
-            17
+          java-version: 21
 
       - uses: gradle/actions/setup-gradle@v4
 
-      # The verifier unpacks each IDE under ~/.pluginVerifier/ides
-      # (RunPluginVerifierTask.ideDownloadDir).
+      # 2.x keeps downloaded IDEs in the project-local cache directory
+      # (Constants.CACHE_DIRECTORY / CACHE_DIRECTORY_IDES).
       - name: Cache downloaded IDEs
         uses: actions/cache@v4
         with:
-          path: ~/.pluginVerifier/ides
+          path: .intellijPlatform/ides
           key: plugin-verifier-${{ hashFiles('gradle.properties') }}
           restore-keys: plugin-verifier-
 
       - name: Run plugin verifier
-        run: ./gradlew runPluginVerifier
+        run: ./gradlew verifyPlugin
 
       - if: failure()
         uses: actions/upload-artifact@v4
