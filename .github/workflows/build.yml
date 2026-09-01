@@ -25,11 +25,11 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
 
-      # buildPlugin runs patchPluginXml, so a malformed README description
-      # section or a broken CHANGELOG fails here. verifyPlugin then checks the
-      # plugin.xml and the bundled theme descriptors.
+      # buildPlugin patches plugin.xml, so a malformed README description section
+      # or a broken CHANGELOG fails here. The two verify tasks are the cheap ones:
+      # verifyPlugin itself downloads a full IDE per version and runs in its own job.
       - name: Build plugin
-        run: ./gradlew buildPlugin verifyPlugin
+        run: ./gradlew buildPlugin verifyPluginStructure verifyPluginProjectConfiguration
 
       # Structural checks for the theme descriptors. Every rule in there maps to
       # a bug that shipped at least once; tools/check_theme.py explains which.
@@ -58,17 +58,17 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
 
-      # The verifier unpacks each IDE under ~/.pluginVerifier/ides
-      # (RunPluginVerifierTask.ideDownloadDir).
+      # 2.x keeps downloaded IDEs in the project-local cache directory
+      # (Constants.CACHE_DIRECTORY / CACHE_DIRECTORY_IDES).
       - name: Cache downloaded IDEs
         uses: actions/cache@v4
         with:
-          path: ~/.pluginVerifier/ides
+          path: .intellijPlatform/ides
           key: plugin-verifier-${{ hashFiles('gradle.properties') }}
           restore-keys: plugin-verifier-
 
       - name: Run plugin verifier
-        run: ./gradlew runPluginVerifier
+        run: ./gradlew verifyPlugin
 
       - if: failure()
         uses: actions/upload-artifact@v4
